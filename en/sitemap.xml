@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://junmingduan.github.io/npde2019/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/authors/admin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/publication_types/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/publication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/talk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/talk/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://junmingduan.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://junmingduan.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://junmingduan.github.io/tags/"
+                />
+  </url>
+  
+</urlset>
