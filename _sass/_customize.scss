@@ -1,0 +1,180 @@
+//引入 Google Fonts （可换为你喜欢的字体）
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap');
+
+
+//定义全局字体栈（中英混排兼容）
+$font-family-sans-serif: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif !default;
+$font-family-base: $font-family-sans-serif;
+
+//全局替换字体
+body {
+  font-family: $font-family-base !important;
+  font-weight: 400;
+}
+
+//标题字体可单独强化
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", "Noto Sans SC", sans-serif !important;
+  font-weight: 600;
+}
+
+//代码字体可保持独立
+code, pre {
+  font-family: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace !important;
+}
+
+//保持和正文字体一致
+table {
+  font-family: $font-family-base !important;
+}
+
+//td 使用和正文相同的字体粗细
+td {
+  font-weight: 400 !important;
+  font-family: inherit !important;
+}
+
+strong {
+  font-weight: 700 !important;
+  color: var(--global-text-color);
+}
+
+// short_bio
+.short_bio {
+  padding: 0;
+  margin-top: 0;
+  //margin-bottom: 1rem;
+
+  .links {
+    a.btn {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      margin-left: 0;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .hidden {
+    font-size: 0.875rem;
+    max-height: 0px;
+    overflow: hidden;
+    text-align: justify;
+    transition-property: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+
+    p {
+      line-height: 1.4em;
+      margin: 10px;
+    }
+
+    pre {
+      font-size: 1em;
+      line-height: 1.4em;
+      padding: 10px;
+    }
+  }
+
+  .hidden.open {
+    max-height: 100em;
+    transition-property: 0.15s ease;
+    -moz-transition: 0.15s ease;
+    -ms-transition: 0.15s ease;
+    -o-transition: 0.15s ease;
+    transition: all 0.15s ease;
+  }
+
+  div.abstract.hidden {
+    border: dashed 1px var(--global-bg-color);
+  }
+  div.abstract.hidden.open {
+    border-color: var(--global-text-color);
+  }
+  div.award.hidden {
+    border: dashed 1px var(--global-bg-color);
+  }
+  div.award.hidden.open {
+    border-color: var(--global-text-color);
+  }
+}
+
+ul.flush-list {
+  padding-left: 1em;
+  margin-left: 0;
+  list-style-position: outside;
+}
+
+/*.text-figure-float {*/
+    /*width: 100%;*/
+    /*max-width: 1200px;*/
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+    /*box-sizing: border-box;*/
+/*}*/
+/*.content-wrapper {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*gap: 1.5rem;*/
+/*}*/
+/*.text-content {*/
+    /*flex: 1;*/
+/*}*/
+/*.image-content {*/
+    /*flex-shrink: 0;*/
+/*}*/
+/*.image-content img {*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    /*display: block;*/
+/*}*/
+/*@media (min-width: 1040px) {*/
+    /*.content-wrapper {*/
+        /*align-items: flex-start;*/
+    /*}*/
+    /*.image-content img {*/
+        /*max-width: 200px;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 576px) {*/
+    /*.image-content img {*/
+        /*max-width: min(200px, 30vw);*/
+    /*}*/
+/*}*/
+/*@media (max-width: 576px) {*/
+    /*.content-wrapper {*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+    /*}*/
+    /*.image-content {*/
+        /*width: 100%;*/
+        /*text-align: center;*/
+        /*margin-bottom: 1.5rem;*/
+    /*}*/
+    /*.image-content img {*/
+        /*margin: 0 auto;*/
+    /*}*/
+/*}*/
+
+/*.group {*/
+  /*h3.category {*/
+    /*color: black;//var(--global-divider-color);*/
+    /*border-top: 1px solid var(--global-divider-color);*/
+    /*//border-bottom: 1px solid var(--global-divider-color);*/
+    /*padding-top: 0.5rem;*/
+    /*margin-top: 2rem;*/
+    /*margin-bottom: 1rem;*/
+    /*text-align: left;*/
+  /*}*/
+/*}*/
+

@@ -1,0 +1,89 @@
+- date: Dec 06-08, 2025
+  conference: Active Flux Workshop
+  location: Southern University of Science and Technology, Shenzhen, China
+  title: "Talk: Active Flux Method for Compressible Flows"
+- date: Oct 28, 2025
+  conference: 'Computation Webinar: Genuinely Multi-Dimensional Numerical Scheme for Conservation Laws'
+  location: online
+  title: 'Talk: On An Asymptotic-Preserving Active Flux Scheme <a href="/assets/talks/Computation_2025.jpg" target="_blank">[more]</a>'
+- date: July 13-18, 2025
+  conference: ICOSAHOM 2025 -- the 15th International Conference on Spectral and High Order Methods
+  location: Montreal, Canada
+  title: "Talk: An Asymptotic-Preserving Active Flux Method for a Kinetic Equation (online)"
+- date: Jun 09-13, 2025
+  conference: NumHyp -- Numerical Methods for Hyperbolic Problems
+  location: Darmstadt, Germany
+  title: "Poster: On An Asymptotic-Preserving Active Flux Scheme"
+- date: May 06, 2025
+  conference: Mobility Innovation eXchange in Aero/Acoustics (MIXA)
+  location: The Ohio State University, USA (online)
+  title: 'Keynote Speaker: Machine-learning-enhanced aerodynamic forces prediction based on sparse pressure sensor inputs <a href="/news/2025-05-06-Ohio-keynote.html" target="_blank">[more]</a>'
+- date: Sep 08-13, 2024
+  conference: HONOM -- High-Order NOnlinear numerical Methods for evolutionary PDEs -- theory and applications
+  location: Chania, Crete, Greece
+  title: "Talk: On limiting for the Active Flux methods for hyperbolic conservation laws"
+- date: Jul 27, 2024
+  conference: Lecture Series on Modern Computational Methods
+  location: Beijing Institute of Applied Physics and Computational Mathematics (online)
+  title: "Talk: Entropy stable schemes for hyperbolic conservation laws"
+- date: Mar 21, 2024
+  conference: Seminar Talk
+  location: Southern University of Science and Technology, Shenzhen, China
+  title: "Talk: Bound-preserving active flux methods for one-dimensional hyperbolic conservation laws and flux vector splitting for point value update"
+- date: Mar 06-08, 2024
+  conference: Workshop PAMIR -- simultaneously used Point values, Averages and Moments and their Inter-Relation -- Active Flux, Multi-Moment Method, Virtual Finite Elements and related numerical methods
+  location: Maxwell Center, Cambridge, UK (online)
+  title: "Talk: Flux-vector splitting for point value update in active flux methods and limiting"
+- date: Dec 18-19, 2023
+  conference: XVII Würzburg Workshop on Stellar Astrophysics
+  location: Heidelberg Institute for Theoretical Studies (HITS), Heidelberg, Germany
+  title: "Plenary talk: Adaptive moving mesh methods in hydrodynamics"
+- date: Jul 01, 2023
+  conference: CAM Seminar
+  location: Southern University of Science and Technology, Shenzhen, China
+  title: "Talk: Machine learning based non-intrusive reduced-order modeling and aerodynamic forces prediction"
+- date: Jun 19-21, 2023
+  conference: ECCOMAS YIC 2023 -- the 7th Young Investigators Conference
+  location: University of Porto, Porto, Portugal
+  title: "Talk: Non-intrusive data-driven reduced-order modeling for time-dependent parametrized problems"
+- date: Jun 07, 2023
+  conference: Swiss Numerics Day 2023
+  location: University of Bern, Bern, Switzerland
+  title: "Talk: Machine-learning-enhanced aerodynamic forces prediction based on sparse pressure sensor inputs"
+- date: Nov 17, 2022
+  conference: Oberseminar
+  location: hosted by Prof. Christian Klingenberg (online)
+  title: "Invited talk: Data-driven reduced-order modeling for time-dependent parametrized problems"
+- date: Aug 22-26, 2022
+  conference: MultiMat 2022 -- the 10th International Conference on Numerical Methods for Multi-Material Fluid Flow
+  location: University of Zürich, Zürich, Switzerland
+  title: "Talk: High-order accurate entropy stable adaptive moving mesh methods"
+- date: Jun 05-07, 2021
+  conference: Symposium on High-Fidelity Numerical Simulation of Fluid Problems
+  location: Peking University, Beijing, China
+  title: "Talk: Entropy stable schemes for RHD"
+- date: Dec 11-13, 2020
+  conference: Forum of Numerical Methods and Applications in Fluids
+  location: Xiangtan University, Xiangtan, China
+  title: "Talk: Entropy stable adaptive moving mesh schemes for RHD"
+- date: Nov 29-December 01, 2019
+  conference: Annual Meeting on High Resolution Method for Multi-Material Hydrodynamics of the Science Challenge Project
+  location: Xiamen University, Xiamen, China
+  title: "Talk: PCP Lagrangian scheme for RHD"
+- date: Aug 28-30, 2019
+  conference: Workshop on Numerical Methods for Complex Physical Problems
+  location: Nanjing University of Aeronautics and Astronautics, Nanjing, China
+  title: "Talk: High-order entropy stable finite difference schemes for RHD"
+- date: Jul 31, 2019
+  conference: The 12th National Annual Meeting of Computational Mathematics
+  location: Harbin, China
+  title: "Talk: High-order entropy stable finite difference schemes for RHD"
+- date: Nov 17, 2018
+  conference: Annual Meeting of the Science Challenge Project
+  location: Jilin University, Changchun, China
+  title: "Poster: PCP Lagrangian scheme for RHD (with Dan Ling), selected as one of the five best posters"
+- date: Nov 11, 2018
+  conference: Beijing Seminar on Computational Fluid Dynamics
+  location: Beijing Institute of Applied Physics and Computational Mathematics, Beijing, China
+  title: "Talk: PCP Lagrangian scheme for RHD"
+

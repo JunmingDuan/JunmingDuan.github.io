@@ -195,6 +195,18 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  .name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bolder;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+    text-align: center;
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -217,7 +229,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -450,6 +462,13 @@ ul.task-list input[type="checkbox"] {
   .contact-note {
     font-size: 0.8rem;
   }
+}
+
+.contact-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .wechat-modal {
@@ -731,11 +750,11 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    text-align: left;
   }
 
   ol.bibliography {
@@ -886,6 +905,28 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+
+  ol.bibliography {  }
+  // numbers align right, contents align left
+  ol.bibliography {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ol.bibliography > li {
+    counter-increment: bibitem -1;
+    position: relative;
+    padding-left: 2.2em;
+    text-align: left;
+    margin-bottom: 0.2em;
+  }
+  ol.bibliography > li::before {
+    content: counter(bibitem) ". ";
+    position: absolute;
+    left: 0;
+    width: 2em;
+    text-align: right;
+  }
+
 }
 
 // Rouge Color Customization

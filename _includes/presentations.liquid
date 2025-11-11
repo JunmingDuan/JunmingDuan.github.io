@@ -1,0 +1,12 @@
+<ul class="flush-list">
+  {% for item in site.data.presentations %}
+    <li>
+      <span>
+        <strong>{{ item.conference }}</strong> &#x2022;
+        {{ item.location }} &#x2022;
+        {{ item.date }} &#x2022;
+        {{ item.title }}
+      </span></li>
+    {% endfor %}
+</ul>
+

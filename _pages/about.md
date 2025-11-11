@@ -1,34 +1,64 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <span class="font-weight-bold">Incoming Assistant Professor<br></span>
+affiliation: <span><a href='https://sse.cuhk.edu.cn' style='color:black'>School of Science and Engineering</a><br>
+             <a href='https://cuhk.edu.cn/en' style='color:black'>The Chinese University of Hong Kong (Shenzhen)</a></span>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Bielersee.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <span>Office</span>: Room 03.017, Mathematik Ost<br></span>
+    <span>Address</span>: Emil-Fischer-Straße 40, 97074 Würzburg, Germany</span>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+#<span>Office</span>: Room xxx, Zhi Ren Building<br></span>
+#<span>Address</span>: 2001 Longxiang Road, Longgang District, Shenzhen, Guangdong, 518172, P.R. China
+
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!--<div class="text-figure-float">-->
+<!--<div class="content-wrapper">-->
+<!--<div class="text-content">-->
+Our research focuses on the development, analysis, and application of high-precision and efficient numerical solvers and reduced-order modeling for problems arising in fluid dynamics.
+Topics include high-order accurate structure-preserving numerical
+methods for solving hyperbolic partial differential equations, and
+data-driven or machine-learning-based reduced-order modeling for parametrized time-dependent problems.
+The methods developed can be applied to real applications, such as magnetic confinement fusion in Tokamak, unmanned aerial vehicle navigation, etc.
+<!--<br>-->
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+We are a group led by Dr. Junming DUAN at the Chinese University of Hong Kong (Shenzhen).
+We are part of the School of Science and Engineering.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+We are looking for motivated candidates at all levels, see [Openings](openings/).
+
+<!--<p></p>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--split-->
+
+<h5>Numerical methods:</h5>
+- high-order accurate methods
+- entropy stable methods
+- physical-constraints-preserving methods
+- adaptive moving mesh methods
+- active flux methods
+<h5>Reduced-order modeling:</h5>
+- reduced basis method
+- data-driven methods
+- machine-learning-enhanced methods
+
+<!--split-->
+

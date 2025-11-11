@@ -1,0 +1,132 @@
+---
+layout: page
+---
+
+<div class="post">
+    <article>
+    {% if page.profiles %}
+      <div class="group">
+        <hr>
+        <h2 class="category">Faculty</h2>
+        <hr>
+      </div>
+      {% for profile in page.profiles %}
+        {% if profile.type == "prof" %}
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+          {% if profile.name %}
+            <div class="name">{{ profile.name }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+        {% endif %}
+      {% endfor %}
+      <hr>
+    {% comment %}a{% endcomment %}
+      {% comment %}<div class="group">{% endcomment %}
+        {% comment %}<hr>{% endcomment %}
+        {% comment %}<h2 class="category">PhD students</h2>{% endcomment %}
+        {% comment %}<hr>{% endcomment %}
+      {% comment %}</div>{% endcomment %}
+      {% for profile in page.profiles %}
+        {% if profile.type == "phd" %}
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+          {% if profile.name %}
+            <div class="name">{{ profile.name }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+        <hr>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
+
+<div class="group">
+  <h3>Past mentorship</h3>
+  {% comment %}<div class="row row-cols-1 row-cols-md-1">{% endcomment %}
+  <ul class="flush-list">
+    <li><span>
+      <strong>
+        Master thesis:
+      </strong>
+        Reduced order modeling for time dependent parametrized problems coupled with uncertainty quantification,
+        Andrea Lörke, University of Würzburg (with Prof. Christian Klingenberg)
+        &#x2022; Fall 2023 - Fall 2024
+    </span></li>
+
+    <li><span>
+      <strong>
+        Master thesis:
+      </strong>
+      GPU-accelerated numerical simulations of hyperbolic conservation laws
+      using entropy stable schemes and adaptive moving mesh method,
+      Bartul Kovacic, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2023
+    </span></li>
+
+    <li><span>
+      <strong>
+        Master thesis:
+      </strong>
+      Investigation of the aerosol evolution and delivery into the upper airway
+      under transient conditions,
+      Filippo Zacchei, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
+    </span></li>
+
+    <li><span>
+      <strong>
+        Master thesis:
+      </strong>
+      High-order entropy stable discontinuous Galerkin schemes using artificial
+      viscosity,
+      Louis Vincent Marie Jaugey, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
+    </span></li>
+
+    <li><span>
+      <strong>
+        Semester project:
+      </strong>
+      Scalable implementation of high-order entropy stable finite difference
+      schemes,
+      Bartul Kovacic, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
+    </span></li>
+  </ul>
+  {% comment %}</div>{% endcomment %}
+</div>
+
