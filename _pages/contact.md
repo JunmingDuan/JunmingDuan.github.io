@@ -10,9 +10,10 @@ nav_order: 10
 <div class="row justify-content-sm-center">
   <div class="col-sm-6 mt-3 mt-md-0">
     <h4>Office</h4>
-      <p>Room xxx, Zhi Ren Building (志仁楼) <a href="https://www.cuhk.edu.cn/zh-hans/page/4908">[Campus Guide]</a><br>
-      <strong>Tel</strong>: +86 1234567<br>
-      <strong>Email</strong>: <a href="mailto: {{ site.data.socials.email | encode_email }}" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></p>
+      <p>Room xxx, Zhi Ren Building (志仁楼) <a href="https://www.cuhk.edu.cn/zh-hans/page/4908" title="Map">[Campus Guide]</a><br>
+      <strong>Tel</strong>: {{ site.data.socials.tel }} <br>
+      <!--&#x2022;-->
+      <a href="mailto: {{ site.data.socials.email | encode_email }}" title="Email">Send me an email</a></p>
       <hr>
     <!-- -->
     <!--<h4>Assistant</h4>-->

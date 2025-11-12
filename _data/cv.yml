@@ -6,7 +6,13 @@
     - name: Position
       value: Assistant Professor (tenure-track)
     - name: Affiliation
-      value: 'School of Science and Engineering (SSE)<br> The Chinese University of Hong Kong (Shenzhen)'
+      value: '<a href="https://sse.cuhk.edu.cn/" title="SSE">School of Science and Engineering (SSE)</a><br> <a href="https://cuhk.edu.cn/en" title="CUHK-SZ">The Chinese University of Hong Kong (Shenzhen)</a>'
+    - name: Tel
+      value: +86 123456
+    - name: Email
+      value: '<a href="mailto: duanjunming[at]cuhk[dot]edu[dot]cn" title="Email">duanjunming[at]cuhk[dot]edu[dot]cn</a>'
+    - name: Homepage
+      value: '<a href="https://junmingduan.github.io" title="Homepage">https://junmingduan.github.io</a>'
     - name: Languages
       value: Chinese, English
 
@@ -14,15 +20,25 @@
   type: time_table
   contents:
     - title: Doctor of Natural Science
-      institution: Peking University, Beijing, China
-      year: 2021.07
+      location: Beijing, P.R. China
+      department: School of Mathematical Sciences
+      institution: Peking University
+      year: 2016.09 - 2021.07
       description:
         - 'Field: Computational Mathematics'
-        - 'Advisor: <a href="https://www.math.pku.edu.cn/teachers/tanghz/private/homepage/">Prof. Huazhong Tang</a>'
+        - 'Advisor: <a href="https://www.math.pku.edu.cn/teachers/tanghz/private/homepage/" title="Tang">Prof. Huazhong Tang</a>'
         - 'Thesis: Entropy stable numerical methods for special relativistic (magneto)hydrodynamics'
+      #linkitems:
+        #- link: abc
+          #linkname: def
+          #111: 222
+      #description:
+        #- ': '
     - title: Bachelor
-      institution: Peking University, Beijing, China
-      year: 2016.07
+      location: Beijing, P.R. China
+      department: School of Mathematical Sciences
+      institution: Peking University
+      year: 2012.09 - 2016.07
       description:
         - 'Major: Information and Computing Science'
 
@@ -30,56 +46,82 @@
   type: time_table
   contents:
     - title: Postdoc
-      institution: Institute of Mathematics, University of Würzburg
+      location: Würzburg, Germany
+      institution: University of Würzburg
+      department: Institute of Mathematics
       year: 2025.10 - 2025.11
       description:
-        - 'Mentor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html">Prof. Christian Klingenberg</a>'
+        - 'Mentor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
 
     - title: Humboldt Postdoctoral Research Fellow
-      institution: Institute of Mathematics, University of Würzburg
+      location: Würzburg, Germany
+      institution: University of Würzburg
+      department: Institute of Mathematics
       year: 2023.10 - 2025.09
       description:
-        - 'Host Professor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html">Prof. Christian Klingenberg</a>'
+        - 'Host Professor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
 
     - title: Visiting Scholar
-      institution: IAM – the Industrial and Applied Mathematics working group in Shenzhen
+      location: Shenzhen, P.R. China
+      institution: IAM – the Industrial and Applied Mathematics Working Group
       year: 2025.07 - 2025.08
       description:
         - 'Host: <a href="https://mypage.cuhk.edu.cn/academics/wangdong/">Prof. Dong Wang</a>'
 
     - title: Postdoc
-      institution: École Polytechnique Fédérale de Lausanne (EPFL), Switzerland
+      location: Lausanne, Switzerland
+      institution: École Polytechnique Fédérale de Lausanne (EPFL)
+      department: Chair of Computational Mathematics and Simulation Science (MCSS)
       year: 2021.09 - 2023.09
       description:
-        - 'Mentor: <a href="https://people.epfl.ch/jan.hesthaven/?lang=en">Prof. Jan S. Hesthaven</a>'
+        - 'Mentor: <a href="https://people.epfl.ch/jan.hesthaven/?lang=en" title="Hesthaven">Prof. Jan S. Hesthaven</a>'
 
     - title: Visiting Scholar
-      institution: Institute for Fusion Theory and Simulation (IFTS), Zhejiang University
+      location: Hangzhou, P.R. China
+      institution: Zhejiang University
+      department: Institute for Fusion Theory and Simulation (IFTS)
       year: 2021.07 - 2021.08
       description:
         - 'Host: <a href="https://person.zju.edu.cn/zhiweima">Prof. Zhiwei Ma</a>'
 
+#- title: Research Grants
+  #type: time_table
+  #contents:
+    #- year: 2026 - 2028
+      #items: Excellent Young Scientists Fund (Overseas) | PI, 1.0M RMB
+    #- year: 2026 - 2028
+      #items: Peacock Talent Research Supporting Fund | PI, 1.6M RMB
+
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023.07
-      items: Humboldt Research Fellowship for Postdocs | Alexander von Humboldt Foundation
-    - year: 2021.07
-      items: Outstanding Graduate of Peking University | Peking University
-    - year: "2020.10"
-      items: National Scholarship for Graduate Student | Ministry of Education of P.R. China
-    - year: 2020.08
-      items: The First Prize in Outstanding Youth Paper Award | Beijing Society of Computational Mathematics
-    - year: 2019 - 2020
-      items: BICMR Scholarship for Graduate Student | Beijing International Center for Mathematical Research (two times)
-    - year: 2018 - 2020
-      items: President Scholarship for PhD Student | Peking University (three times)
-    - year: 2019.09
-      items: Founder Scholarship | Peking University
-    - year: 2017.09
-      items: DTZ Cushman & Wakefield Scholarship | Peking University
-    - year: 2016.07
-      items: Outstanding Undergraduate of Peking University | Peking University
+    - title: Humboldt Research Fellowship for Postdocs
+      institution: Alexander von Humboldt Foundation
+      year: 2023.07
+    - title: Outstanding Graduate of Peking University
+      institution: Peking University
+      year: 2021.07
+    - title: National Scholarship for Graduate Student
+      institution: Ministry of Education of P.R. China
+      year: '2020.10'
+    - title: The First Prize in Outstanding Youth Paper Award
+      institution: Beijing Society of Computational Mathematics
+      year: 2020.08
+    - title: BICMR Scholarship for Graduate Student
+      institution: Beijing International Center for Mathematical Research
+      year: 2019 - 2020 <br><br> (two times)
+    - title: President Scholarship for PhD Student
+      institution: Peking University
+      year: 2018 - 2020 <br><br> (three times)
+    - title: Founder Scholarship
+      institution: Peking University
+      year: 2019.09
+    - title: DTZ Cushman & Wakefield Scholarship
+      institution: Peking University
+      year: 2017.09
+    - title: Outstanding Undergraduate of Peking University
+      institution: Peking University
+      year: 2016.07
 
 - title: Professional Services
   type: nested_list
@@ -92,7 +134,7 @@
         - Journal of Computational Physics,
         - Journal of Computational and Applied Mathematics
         - Communications in Nonlinear Science and Numerical Simulation
-        - International Journal for Numerical Methods in Engineering-
+        - International Journal for Numerical Methods in Engineering
         - East Asian Journal on Applied Mathematics
         - Communications in Computational Physics
         - Journal of Scientific Computing

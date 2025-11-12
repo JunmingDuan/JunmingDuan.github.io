@@ -3,8 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: <span class="font-weight-bold">Incoming Assistant Professor<br></span>
-affiliation: <span><a href='https://sse.cuhk.edu.cn' style='color:black'>School of Science and Engineering</a><br>
-             <a href='https://cuhk.edu.cn/en' style='color:black'>The Chinese University of Hong Kong (Shenzhen)</a></span>
 
 profile:
   align: right
@@ -13,9 +11,6 @@ profile:
   more_info: >
     <span>Office</span>: Room 03.017, Mathematik Ost<br></span>
     <span>Address</span>: Emil-Fischer-Straße 40, 97074 Würzburg, Germany</span>
-
-#<span>Office</span>: Room xxx, Zhi Ren Building<br></span>
-#<span>Address</span>: 2001 Longxiang Road, Longgang District, Shenzhen, Guangdong, 518172, P.R. China
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -37,15 +32,10 @@ data-driven or machine-learning-based reduced-order modeling for parametrized ti
 The methods developed can be applied to real applications, such as magnetic confinement fusion in Tokamak, unmanned aerial vehicle navigation, etc.
 <!--<br>-->
 
-We are a group led by Dr. Junming DUAN at the Chinese University of Hong Kong (Shenzhen).
-We are part of the School of Science and Engineering.
+We are a group led by Dr. Junming DUAN at <a href="https://cuhk.edu.cn/en" title="CUHK-SZ">the Chinese University of Hong Kong (Shenzhen)</a>.
+We are part of the <a href="https://sse.cuhk.edu.cn/" title="SSE">School of Science and Engineering (SSE)</a>.
 
 We are looking for motivated candidates at all levels, see [Openings](openings/).
-
-<!--<p></p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
 
 <!--split-->
 
