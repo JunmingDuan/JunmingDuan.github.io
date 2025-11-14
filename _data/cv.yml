@@ -10,7 +10,7 @@
     - name: Tel
       value: +86 123456
     - name: Email
-      value: '<a href="mailto: duanjunming[at]cuhk[dot]edu[dot]cn" title="Email">duanjunming[at]cuhk[dot]edu[dot]cn</a>'
+      value: '<a href="mailto: duanjunming[at]cuhk[dot]edu[dot]cn" title="Email">duanjunming[at]cuhk[dot]edu[dot]cn</a> (available from Jan 2026)'
     - name: Homepage
       value: '<a href="https://junmingduan.github.io" title="Homepage">https://junmingduan.github.io</a>'
     - name: Languages

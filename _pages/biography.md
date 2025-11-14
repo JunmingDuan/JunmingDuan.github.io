@@ -16,16 +16,17 @@ He is supported by the Excellent Young Scientists Fund Program (Overseas).
 He has received several honors, including the Humboldt Research Fellowship for Postdocs, and the First Prize in Outstanding Youth Paper Award from the Beijing Society of Computational Mathematics.
 
 段俊明，香港中文大学(深圳)理工学院助理教授，博士生导师。
-2016年和2021年于北京大学分别获得学士和博士学位，
+2016年和2021年分别于北京大学获得学士和博士学位，
 师从<a href="https://www.math.pku.edu.cn/teachers/tanghz/private/homepage/">汤华中教授</a>。
-2021年至2023年在瑞士洛桑联邦理工学院(EPFL)从事博士后研究，
-合作导师为<a href="https://people.epfl.ch/jan.hesthaven/?lang=en">Jan S. Hesthaven教授</a>;
-2023年至2025年在德国维尔茨堡大学担任洪堡博士后，
-合作导师为<a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html">Christian Klingenberg教授</a>。
+随后分别于瑞士洛桑联邦理工学院（2021-2023）和德国维尔茨堡大学（2023-2025）开展博士后研究，
+合作导师分别为<a href="https://people.epfl.ch/jan.hesthaven/?lang=en">Jan S. Hesthaven教授</a>
+和<a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html">Christian Klingenberg教授</a>。
 主要研究方向为流体力学中的数值方法，
 包括双曲守恒律方程组的高精度数值方法，
 参数化时变问题的高效降阶建模等。
-入选国家级青年人才项目(海外)，曾获德国洪堡博士后和北京计算数学学会优秀青年论文一等奖等荣誉。
+入选国家级青年人才项目（海外），
+曾获德国洪堡基金会博士后项目资助
+和北京计算数学学会优秀青年论文一等奖等荣誉。
 
 <!--<div class="short_bio">-->
 <!--<div class="links">-->
