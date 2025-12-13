@@ -1,6 +1,6 @@
-<strong>Dr. Junming DUAN</strong> is a tenure-track assistant professor at <strong><a href="https://cuhk.edu.cn/en" title="CUHK-SZ">the Chinese University of Hong Kong (Shenzhen)</a></strong>. He received his B.Sc. (2016) and Ph.D. (2021) from Peking University, supervised by <a href="https://www.math.pku.edu.cn/teachers/tanghz/private/homepage/" title="Tang">Prof. Huazhong Tang</a>.
-After that he worked as a postdoc at EPFL with <a href="https://people.epfl.ch/jan.hesthaven/?lang=en" title="Hesthaven">Prof. Jan S. Hesthaven</a>, and then at the University of Würzburg with <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>.
-His research focuses on computational methods for fluid dynamics, particularly high-order numerical methods and efficient reduced-order modeling.
+<strong>Dr. Junming DUAN</strong> is a tenure-track Assistant Professor at <strong><a href="https://sse.cuhk.edu.cn/en" title="SSE">the School of Science and Engineering (SSE)</a></strong>, <strong><a href="https://cuhk.edu.cn/en" title="CUHK-SZ">The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)</a></strong>. He received his B.Sc. (2016) and Ph.D. (2021) from Peking University.
+After that he worked as a postdoctoral researcher at École Polytechnique Fédérale de Lausanne (EPFL), and then at the University of Würzburg.
+His research focuses on numerical computation in fluid dynamics, particularly high-order numerical methods and efficient reduced-order modeling.
 Among other recognitions and awards, he was awarded with the Excellent Young Scientists Fund (Overseas), and the Humboldt Research Fellowship for Postdocs.
 
 <div class="contact-icons">
