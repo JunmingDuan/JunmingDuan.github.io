@@ -27,7 +27,7 @@ nav_order: 10
       <p><h5>Assist. Prof. Junming DUAN</h5>
       School of Science and Engineering (SSE)<br>
       2001 Longxiang Road, Longgang District<br>
-      Shenzhen, Guangdong, 518172, P.R. China</p>
+      518172, Shenzhen, Guangdong, P.R. China</p>
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/campus_map.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

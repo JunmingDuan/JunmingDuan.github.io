@@ -8,7 +8,7 @@
     - name: Affiliation
       value: '<a href="https://sse.cuhk.edu.cn/" title="SSE">School of Science and Engineering (SSE)</a><br> <a href="https://cuhk.edu.cn/en" title="CUHK-SZ">The Chinese University of Hong Kong (Shenzhen)</a>'
     - name: Tel
-      value: +86 123456
+      value: +86 0755-23519818
     - name: Email
       value: '<a href="mailto: duanjunming[at]cuhk[dot]edu[dot]cn" title="Email">duanjunming[at]cuhk[dot]edu[dot]cn</a>'
     - name: Homepage
@@ -84,11 +84,11 @@
       description:
         - 'Host: <a href="https://person.zju.edu.cn/zhiweima">Prof. Zhiwei Ma</a>'
 
-#- title: Research Grants
-  #type: time_table
-  #contents:
-    #- year: 2026 - 2028
-      #items: Excellent Young Scientists Fund (Overseas) | PI, 1.0M RMB
+- title: Research Grants
+  type: time_table
+  contents:
+    - year: 2026 - 2028
+      items: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
     #- year: 2026 - 2028
       #items: Peacock Talent Research Supporting Fund | PI, 1.6M RMB
 
