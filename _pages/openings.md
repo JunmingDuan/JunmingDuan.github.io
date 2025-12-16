@@ -34,6 +34,9 @@ nav_order: 11
         apply directly to the graduate school for admission. <a href="https://sse-mphil-phd.cuhk.edu.cn/program/MAT">[Program at CUHK-SZ]</a>
       </li>
       <li>
+        Apply for <a href="https://mp.weixin.qq.com/s/3sbwwqjRvNkXdtMcV5x_tg">[CUHK-Shenzhen & KAUST joint PhD program]</a>
+      </li>
+      <li>
         For PhD and postdoc applicants, please also send the names and email addresses of 1-2 referees who have agreed to provide recommendation letters.
       </li>
       </ul>
