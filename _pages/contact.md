@@ -25,7 +25,8 @@ nav_order: 10
     <!-- -->
     <h4>Mailing address</h4>
       <p><h5>Asst. Prof. Junming DUAN</h5>
-      School of Science and Engineering (SSE)<br>
+      Room 303, Zhi Ren Building<br>
+      The Chinese University of Hong Kong, Shenzhen<br>
       2001 Longxiang Road, Longgang District<br>
       518172, Shenzhen, Guangdong, P.R. China</p>
   </div>

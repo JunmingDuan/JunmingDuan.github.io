@@ -10,7 +10,7 @@ nav_order: 7
 <!--For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.-->
 
 
-**Applied Mathematics for AI**, The Chinese University of Hong Kong (Shenzhen), Spring 2026 [[materials]](/teaching/AM4AI)<br/>
+**Applied Mathematics for AI**, The Chinese University of Hong Kong, Shenzhen, Spring 2026 [[materials]](/teaching/AM4AI)<br/>
 
 <!--<div class="group">-->
   <!--<h3 class="category">As teaching assistant</h3>-->
