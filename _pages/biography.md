@@ -10,10 +10,10 @@ nav_order: 20
 
 Dr. Junming DUAN is a tenure-track Assistant Professor at <a href="https://sse.cuhk.edu.cn/en" title="SSE">the School of Science and Engineering (SSE)</a>, <a href="https://cuhk.edu.cn/en">The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)</a>. He received his B.Sc. (2016) and Ph.D. (2021) from Peking University, then he worked as a postdoctoral researcher at the École Polytechnique Fédérale de Lausanne (EPFL) from 2021 to 2023, and a Humboldt Postdoctoral Research Fellow at the University of Würzburg from 2023 to 2025. His research focuses on numerical computation in fluid dynamics, particularly high-order accurate numerical methods for hyperbolic partial differential equations and efficient reduced-order modeling for parametrized time-dependent problems. His research has been published in leading journals, such as JCP, SISC, AIAA, CMAME, etc. He has received several honors, including the Humboldt Research Fellowship for Postdocs and the First Prize in the Outstanding Youth Paper Award from the Beijing Society of Computational Mathematics.
 
-段俊明，香港中文大学（深圳）理工学院助理教授，博士生导师。
-分别于 2016 年和 2021 年获北京大学学士和博士学位，随后于瑞士洛桑联邦理工学院（2021至2023年）和德国维尔茨堡大学（2023至2025年）开展博士后研究。
+段俊明，香港中文大学（深圳）理工学院助理教授、博士生导师。
+分别于 2016 年和 2021 年获北京大学学士和博士学位，随后2021至2023年于瑞士洛桑联邦理工学院开展博士后研究，2023至2025年在德国维尔茨堡大学担任洪堡博士后。
 主要研究方向为流体力学中的数值方法，包括双曲型偏微分方程的高精度数值方法和参数化时变问题的高效降阶建模等。
-研究成果已发表在 JCP、SISC、AIAA、CMAME 等主要期刊。
+研究成果发表于 JCP、SISC、AIAA、CMAME 等主要期刊。
 入选国家级青年人才项目（海外），曾获德国洪堡基金会博士后项目资助和北京计算数学学会优秀青年论文一等奖等荣誉。
 
 
