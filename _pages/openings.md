@@ -17,8 +17,7 @@ nav_order: 11
                <!--alt="hiring_cat"-->
                <!--loading="eager"-->
                <!--style="width: 100%; max-width: 200px; height: auto;"-->
-               <!--sizes="(min-width: 768px) 200px, 100vw"-->
-               <!-->-->
+               <!--sizes="(min-width: 768px) 200px, 100vw">-->
         <!--</picture>-->
         <!--</div>-->
     <!--</div>-->
@@ -101,5 +100,4 @@ nav_order: 11
     </ul>
   </article>
 </div>
-
 
