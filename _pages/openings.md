@@ -9,19 +9,19 @@ nav_order: 11
 
 <div class="post">
   <article>
-    <div class="profile float-right">
-        <div style="text-align: left;">
-        <picture>
-          <source srcset="/assets/img/hiring_cat.gif" type="image/gif">
-          <img src="/assets/img/hiring_cat.gif"
-               alt="hiring_cat"
-               loading="eager"
-               style="width: 100%; max-width: 200px; height: auto;"
-               sizes="(min-width: 768px) 200px, 100vw"
-               >
-        </picture>
-        </div>
-    </div>
+    <!--<div class="profile float-right">-->
+        <!--<div style="text-align: left;">-->
+        <!--<picture>-->
+          <!--<source srcset="/assets/img/hiring_cat.gif" type="image/gif">-->
+          <!--<img src="/assets/img/hiring_cat.gif"-->
+               <!--alt="hiring_cat"-->
+               <!--loading="eager"-->
+               <!--style="width: 100%; max-width: 200px; height: auto;"-->
+               <!--sizes="(min-width: 768px) 200px, 100vw"-->
+               <!-->-->
+        <!--</picture>-->
+        <!--</div>-->
+    <!--</div>-->
     <header class="post-header">
       <h3 class="post-title">We are looking for motivated candidates at all levels.</h3>
     </header>
