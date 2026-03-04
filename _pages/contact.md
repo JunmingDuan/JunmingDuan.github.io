@@ -17,10 +17,10 @@ nav_order: 10
       <hr>
     <!-- -->
     <h4>Assistant</h4>
-      <p><h5>Ms Yunyun KONG</h5>
+      <p><h5>Ms. Yunyun KONG</h5>
       kongyunyun[at]cuhk.edu.cn<br>
-      <!--Room xxx, Zhi Ren Building (志仁楼)<br>-->
-      <!--<strong>Tel</strong>: +86 1234567<br></p>-->
+      Room 203, LEE Yin Yee Building (李贤义楼)<br>
+      <strong>Tel</strong>: +86 0755-235-19749<br></p>
       <hr>
     <!-- -->
     <h4>Mailing address</h4>
