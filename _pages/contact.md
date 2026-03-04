@@ -16,12 +16,12 @@ nav_order: 10
       <a href="mailto: {{ site.data.socials.email | encode_email }}" title="Email">Send me an email</a></p>
       <hr>
     <!-- -->
-    <!--<h4>Assistant</h4>-->
-      <!--<p><h5>xxx</h5>-->
-      <!--xxxx[at]cuhk.edu.cn<br>-->
+    <h4>Assistant</h4>
+      <p><h5>Ms Yunyun KONG</h5>
+      kongyunyun[at]cuhk.edu.cn<br>
       <!--Room xxx, Zhi Ren Building (志仁楼)<br>-->
       <!--<strong>Tel</strong>: +86 1234567<br></p>-->
-      <!--<hr>-->
+      <hr>
     <!-- -->
     <h4>Mailing address</h4>
       <p><h5>Asst. Prof. Junming DUAN</h5>
@@ -34,8 +34,4 @@ nav_order: 10
         {% include figure.liquid path="assets/img/campus_map.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-
-<!--<p>Room 03.017, Mathematik Ost</p>-->
-<!--<p>Emil-Fischer-Straße 40</p>-->
-<!--<p>97074 Würzburg, Germany</p>-->
 
