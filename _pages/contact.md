@@ -23,7 +23,7 @@ nav_order: 10
       <strong>Tel</strong>: +86 0755-235-19749<br></p>
       <hr>
     <!-- -->
-    <h4>Mailing address</h4>
+    <h4>Mailing Address</h4>
       <p><h5>Asst. Prof. Junming DUAN</h5>
       Room 303, Zhi Ren Building<br>
       The Chinese University of Hong Kong, Shenzhen<br>
