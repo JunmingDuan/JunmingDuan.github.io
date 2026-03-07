@@ -1,3 +1,7 @@
+- date: May 27, 2026
+  conference: HYP 2026 -- The 20th International Conference on Hyperbolic Problems: Theory, Numerics and Applications
+  location: University of Stuttgart, Germany
+  title: "Talk: From"
 - date: Dec 06-08, 2025
   conference: Active Flux Workshop
   location: Southern University of Science and Technology, Shenzhen, China
@@ -7,11 +11,11 @@
   location: online
   title: 'Talk: On An Asymptotic-Preserving Active Flux Scheme <a href="/assets/talks/Computation_2025.jpg" target="_blank">[more]</a>'
 - date: July 13-18, 2025
-  conference: ICOSAHOM 2025 -- the 15th International Conference on Spectral and High Order Methods
+  conference: ICOSAHOM 2025 -- The 15th International Conference on Spectral and High Order Methods
   location: Montreal, Canada
   title: "Talk: An Asymptotic-Preserving Active Flux Method for a Kinetic Equation (online)"
 - date: Jun 09-13, 2025
-  conference: NumHyp -- Numerical Methods for Hyperbolic Problems
+  conference: NumHyp 2025 -- Numerical Methods for Hyperbolic Problems
   location: Darmstadt, Germany
   title: "Poster: On An Asymptotic-Preserving Active Flux Scheme"
 - date: May 06, 2025
@@ -19,7 +23,7 @@
   location: The Ohio State University, USA (online)
   title: 'Keynote Speaker: Machine-learning-enhanced aerodynamic forces prediction based on sparse pressure sensor inputs <a href="/news/2025-05-06-Ohio-keynote.html" target="_blank">[more]</a>'
 - date: Sep 08-13, 2024
-  conference: HONOM -- High-Order NOnlinear numerical Methods for evolutionary PDEs -- theory and applications
+  conference: HONOM 2024 -- High-Order NOnlinear numerical Methods for evolutionary PDEs -- theory and applications
   location: Chania, Crete, Greece
   title: "Talk: On limiting for the Active Flux methods for hyperbolic conservation laws"
 - date: Jul 27, 2024
