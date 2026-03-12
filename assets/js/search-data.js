@@ -149,7 +149,7 @@ ninja.data = [{
           title: 'Welcome Prof. Qian WANG from CSRC for a visit.',
           description: "",
           section: "News",},{id: "news-speaker-for-sse-weekly-colloquium-from-fluids-to-algorithms-computational-fluid-dynamics-and-ai-based-surrogate-models",
-          title: 'Speaker for SSE Weekly Colloquium: From Fluids to Algorithms: Computational Fluid Dynamics and...',
+          title: 'Speaker for SSE Weekly Colloquium: “From Fluids to Algorithms: Computational Fluid Dynamics and...',
           description: "",
           section: "News",},{id: "news-attend-hyp2026-in-stuttgart-and-give-a-talk",
           title: 'Attend HYP2026 in Stuttgart and give a talk.',
