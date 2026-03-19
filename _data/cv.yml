@@ -87,10 +87,13 @@
 - title: Research Grants
   type: time_table
   contents:
+    - year: Mar 2026 - Oct 2026
+      items: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
+      : "1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund - Grant 2025A0505000079"
     - year: 2026 - 2028
       items: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
-    #- year: 2026 - 2028
-      #items: Peacock Talent Research Supporting Fund | PI, 1.6M RMB
+    - year: 2026 - 2028
+      items: University Development Fund | PI, 2.0M RMB
 
 - title: Honors and Awards
   type: time_table
