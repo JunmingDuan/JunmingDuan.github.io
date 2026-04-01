@@ -50,50 +50,48 @@
       institution: University of Würzburg
       department: Institute of Mathematics
       year: 2025.10 - 2025.11
-      description:
-        - 'Mentor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
+      items: 'Mentor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
 
     - title: Humboldt Postdoctoral Research Fellow
       location: Würzburg, Germany
       institution: University of Würzburg
       department: Institute of Mathematics
       year: 2023.10 - 2025.09
-      description:
-        - 'Host Professor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
+      items: 'Host Professor: <a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Welcome.html" title="Klingenberg">Prof. Christian Klingenberg</a>'
 
     - title: Visiting Scholar
       location: Shenzhen, P.R. China
       institution: IAM – the Industrial and Applied Mathematics Working Group
       year: 2025.07 - 2025.08
-      description:
-        - 'Host: <a href="https://mypage.cuhk.edu.cn/academics/wangdong/">Prof. Dong Wang</a>'
+      items: 'Host: <a href="https://mypage.cuhk.edu.cn/academics/wangdong/">Prof. Dong Wang</a>'
 
     - title: Postdoc
       location: Lausanne, Switzerland
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
       department: Chair of Computational Mathematics and Simulation Science (MCSS)
       year: 2021.09 - 2023.09
-      description:
-        - 'Mentor: <a href="https://people.epfl.ch/jan.hesthaven/?lang=en" title="Hesthaven">Prof. Jan S. Hesthaven</a>'
+      items: 'Mentor: <a href="https://people.epfl.ch/jan.hesthaven/?lang=en" title="Hesthaven">Prof. Jan S. Hesthaven</a>'
 
     - title: Visiting Scholar
       location: Hangzhou, P.R. China
       institution: Zhejiang University
       department: Institute for Fusion Theory and Simulation (IFTS)
       year: 2021.07 - 2021.08
-      description:
-        - 'Host: <a href="https://person.zju.edu.cn/zhiweima">Prof. Zhiwei Ma</a>'
+      items: 'Host: <a href="https://person.zju.edu.cn/zhiweima">Prof. Zhiwei Ma</a>'
 
 - title: Research Grants
   type: time_table
   contents:
-    - year: Mar 2026 - Oct 2026
-      items: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
-      : "1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund - Grant 2025A0505000079"
+    - year: 2026.03 - 2026.10
+      title: Collaborative Double Major Programme (CDMP) Research and Innovation Scheme (CRIS) | PI, 60K RMB
+      items:
+        - "Project code: CRIS26029"
+        - "Acknowledgement: 1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund - Grant 2025A0505000079"
     - year: 2026 - 2028
-      items: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
+      title: Excellent Young Scientists Fund (Overseas) | PI #, 1.0M RMB
     - year: 2026 - 2028
-      items: University Development Fund | PI, 2.0M RMB
+      title: University Development Fund (UDF) | PI, 2M RMB
+      items: "Acknowledgement: University Development Fund with the code UDF01004388"
 
 - title: Honors and Awards
   type: time_table
@@ -112,10 +110,10 @@
       year: 2020.08
     - title: BICMR Scholarship for Graduate Student
       institution: Beijing International Center for Mathematical Research
-      year: 2019 - 2020 <br><br> (two times)
+      year: 2019 - 2020 <br> (two times)
     - title: Presidential Scholarship for PhD Student
       institution: Peking University
-      year: 2018 - 2020 <br><br> (three times)
+      year: 2018 - 2020 <br> (three times)
     - title: Founder Scholarship
       institution: Peking University
       year: 2019.09

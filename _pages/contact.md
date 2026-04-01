@@ -26,7 +26,7 @@ nav_order: 10
     <h4>Mailing Address</h4>
       <p><h5>Asst. Prof. Junming DUAN</h5>
       Room 303, Zhi Ren Building<br>
-      The Chinese University of Hong Kong, Shenzhen<br>
+      The Chinese University of Hong Kong (Shenzhen)<br>
       2001 Longxiang Road, Longgang District<br>
       518172, Shenzhen, Guangdong, P.R. China</p>
   </div>
