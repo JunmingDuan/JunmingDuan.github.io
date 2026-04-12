@@ -32,10 +32,10 @@ data-driven or machine-learning-based reduced-order modeling for parametrized ti
 The methods developed can be applied to real applications, such as magnetic confinement fusion in Tokamak, unmanned aerial vehicle navigation, etc.
 <!--<br>-->
 
-We are a group led by Dr. Junming DUAN at <a href="https://cuhk.edu.cn/en" title="CUHK-SZ">the Chinese University of Hong Kong (Shenzhen)</a>.
+We are a group led by Dr. Junming DUAN at <a href="https://cuhk.edu.cn/en" title="CUHK-SZ">The Chinese University of Hong Kong (Shenzhen)</a>.
 We are part of the <a href="https://sse.cuhk.edu.cn/" title="SSE">School of Science and Engineering (SSE)</a>.
 
-We are looking for motivated candidates at all levels, see [Openings](openings/).
+We are looking for motivated candidates, see [Openings](openings/).
 
 <!--split-->
 

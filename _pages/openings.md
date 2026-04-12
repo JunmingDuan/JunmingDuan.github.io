@@ -22,7 +22,7 @@ nav_order: 11
         <!--</div>-->
     <!--</div>-->
     <header class="post-header">
-      <h3 class="post-title">We are looking for motivated candidates at all levels.</h3>
+      <h3 class="post-title">We are looking for motivated candidates.</h3>
     </header>
     <ul class="flush-list">
       <li>
