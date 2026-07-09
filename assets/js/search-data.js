@@ -142,7 +142,7 @@ ninja.data = [{
           section: "News",},{id: "news-talk-at-active-flux-workshop-hosted-at-southern-university-of-science-and-technology-sustech",
           title: 'Talk at Active Flux workshop, hosted at Southern University of Science and Technology...',
           description: "",
-          section: "News",},{id: "news-welcome-phd-students-mr-yixiao-tang-and-mr-zexuan-yang-from-peking-university-for-a-visit",
+          section: "News",},{id: "news-welcome-phd-students-mr-yixiao-tang-and-mr-zexuan-yang-from-peking-university-for-a-research-stay",
           title: 'Welcome PhD students Mr. Yixiao TANG and Mr. Zexuan YANG from Peking University...',
           description: "",
           section: "News",},{id: "news-welcome-prof-qian-wang-from-csrc-for-a-visit",
@@ -154,7 +154,31 @@ ninja.data = [{
           section: "News",},{id: "news-attend-hyp2026-in-stuttgart-and-give-a-talk",
           title: 'Attend HYP2026 in Stuttgart and give a talk.',
           description: "",
-          section: "News",},{id: "teaching-project-2",
+          section: "News",},{id: "news-glad-to-welcome-undergraduate-students-ms-guo-liu-mr-yicheng-hu-and-ms-yan-yang-for-their-respective-research-stays",
+          title: 'Glad to welcome undergraduate students Ms. Guo LIU, Mr. Yicheng HU, and Ms....',
+          description: "",
+          section: "News",},{id: "news-delighted-to-welcome-dr-liuping-huang-as-a-postdoc",
+          title: 'Delighted to welcome Dr. Liuping HUANG as a postdoc!',
+          description: "",
+          section: "News",},{id: "news-delighted-to-welcome-mr-shi-xu-as-a-phd-student",
+          title: 'Delighted to welcome Mr. Shi XU as a PhD student!',
+          description: "",
+          section: "News",},{id: "people-junmingduan",
+          title: 'Junmingduan',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/junmingduan.html";
+            },},{id: "people-liupinghuang",
+          title: 'Liupinghuang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/liupinghuang.html";
+            },},{id: "people-shixu",
+          title: 'Shixu',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/shixu.html";
+            },},{id: "teaching-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Teaching",handler: () => {
