@@ -38,7 +38,7 @@ profiles:
 
   - align: left
     type: postdoc
-    image: niming.webp
+    image: huangliuping.jpg
     content: liupinghuang.md
     image_circular: false
     name: Liuping HUANG (黄柳萍)
