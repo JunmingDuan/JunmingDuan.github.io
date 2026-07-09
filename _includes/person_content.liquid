@@ -1,0 +1,24 @@
+{% assign profile_content_id = include.profile.content | default: "" | strip | remove: ".md" %}
+
+{% if profile_content_id == "" %}
+  <p class="text-danger">
+    <strong>Warning:</strong> missing content field for profile:
+    {{ include.profile.name | default: "unknown person" }}
+  </p>
+{% else %}
+  {% assign person = site.people | where: "slug", profile_content_id | first %}
+
+  {% unless person %}
+    {% assign person_path = "_people/" | append: profile_content_id %}
+    {% assign person = site.people | where: "path", person_path | first %}
+  {% endunless %}
+
+  {% if person %}
+    {{ person.content | markdownify }}
+  {% else %}
+    <p class="text-danger">
+      <strong>Warning:</strong> profile content not found:
+      {{ profile_content_id }}
+    </p>
+  {% endif %}
+{% endif %}

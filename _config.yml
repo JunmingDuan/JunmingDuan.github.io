@@ -154,6 +154,8 @@ collections:
     #output: true
   teaching:
     output: true
+  people:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

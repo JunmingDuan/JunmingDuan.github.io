@@ -1452,3 +1452,96 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.group-section {
+  clear: both;
+}
+
+.group-separator {
+  clear: both;
+  border: 0;
+  border-top: 1px solid var(--global-divider-color, #d0d0d0);
+  margin: 2.25rem 0 1.25rem;
+}
+
+.group-member {
+  clear: both;
+  margin-bottom: 1.75rem;
+}
+
+.group-member::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 非 Faculty 的双栏区域 */
+.group-grid {
+  margin-top: 0.5rem;
+}
+
+/* 双栏中每个人的卡片 */
+.group-member-card {
+  height: 100%;
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  //border: 1px solid var(--global-divider-color, #d0d0d0);
+  //border-radius: 0.5rem;
+  //background: var(--global-bg-color);
+}
+
+/* 双栏内部：左图右文字 */
+.profile-grid-layout {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+/* 双栏头像 */
+.profile-grid-image {
+  flex: 0 0 110px;
+  max-width: 110px;
+}
+
+.profile-grid-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* 双栏文字 */
+.profile-grid-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-grid-content .name {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+/* 避免 profile 内容里的段落间距太大 */
+.profile-grid-content p {
+  margin-bottom: 0.5rem;
+}
+
+/* 联系图标在双栏中稍微紧凑一点 */
+.profile-grid-content .contact-icons {
+  margin-top: 0.4rem;
+}
+
+.profile-grid-content .contact-icons a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+/* 手机端：图片和文字上下排列 */
+@media (max-width: 576px) {
+  .profile-grid-layout {
+    flex-direction: column;
+  }
+
+  .profile-grid-image {
+    max-width: 160px;
+  }
+}

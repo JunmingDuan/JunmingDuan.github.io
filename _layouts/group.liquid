@@ -3,164 +3,132 @@ layout: page
 ---
 
 <div class="post">
-    <article>
-    {% if page.profiles %}
-      <div class="group">
-        <hr>
-        <h2 class="category">Faculty</h2>
-        <hr>
-      </div>
-      {% for profile in page.profiles %}
-        {% if profile.type == "prof" %}
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.name %}
-            <div class="name">{{ profile.name }}</div>
-          {% endif %}
-        </div>
+  <article>
+    {% if page.profiles and page.sections %}
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
+      {% assign printed_section = false %}
+
+      {% for section in page.sections %}
+        {% assign section_type = section.type | strip %}
+        {% assign section_title = section.title | default: section_type %}
+        {% assign section_profiles = page.profiles | where: "type", section_type %}
+
+        {% assign show_section = false %}
+        {% if section_profiles.size > 0 or section.show_empty %}
+          {% assign show_section = true %}
         {% endif %}
-      {% endfor %}
-      <hr>
-    {% comment %}a{% endcomment %}
-      {% comment %}<div class="group">{% endcomment %}
-        {% comment %}<hr>{% endcomment %}
-        {% comment %}<h2 class="category">PhD students</h2>{% endcomment %}
-        {% comment %}<hr>{% endcomment %}
-      {% comment %}</div>{% endcomment %}
-      {% for profile in page.profiles %}
-        {% if profile.type == "phd" %}
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.name %}
-            <div class="name">{{ profile.name }}</div>
-          {% endif %}
-        </div>
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
+        {% if show_section %}
+
+          {% if printed_section %}
+            <hr class="group-separator">
           {% endif %}
-        </div>
-        <hr>
+          {% assign printed_section = true %}
+
+          <section class="group-section" id="{{ section_type | slugify }}">
+            <h2 class="category">{{ section_title }}</h2>
+
+            {% if section_profiles.size > 0 %}
+
+                {% if section_type == "prof" %}
+                  <!-- Faculty: 单栏显示 -->
+                  {% for profile in section_profiles %}
+                    <div class="group-member faculty-member">
+
+                      {% if profile.image or profile.name %}
+                        <div class="profile float-{% if profile.align == 'right' %}right{% else %}left{% endif %}">
+                          {% if profile.image %}
+                            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+
+                            {% if profile.image_circular %}
+                              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                            {% else %}
+                              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                            {% endif %}
+
+                            {% assign profile_alt = profile.name | default: profile.image %}
+
+                            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+
+                            {% include figure.liquid
+                              loading="eager"
+                              path=profile_image_path
+                              class=profile_image_class
+                              sizes=sizes
+                              alt=profile_alt
+                            %}
+                          {% endif %}
+
+                          {% if profile.name %}
+                            <div class="name">{{ profile.name }}</div>
+                          {% endif %}
+                        </div>
+                      {% endif %}
+
+                      <div class="clearfix">
+                        {% include person_content.liquid profile=profile %}
+                      </div>
+
+                    </div>
+                  {% endfor %}
+
+                {% else %}
+                  <!-- 非 Faculty: 左右双栏显示 -->
+                  <div class="row row-cols-1 row-cols-md-2 g-4 group-grid">
+                    {% for profile in section_profiles %}
+                      <div class="col">
+                        <div class="group-member group-member-card">
+
+                          <div class="profile-grid-layout">
+                            {% if profile.image %}
+                              <div class="profile-grid-image">
+                                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+
+                                {% if profile.image_circular %}
+                                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                                {% else %}
+                                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                                {% endif %}
+
+                                {% capture sizes %}(min-width: {{ site.max_width }}) 160px, (min-width: 576px) 25vw, 95vw{% endcapture %}
+
+                                {% include figure.liquid
+                                  loading="lazy"
+                                  path=profile_image_path
+                                  class=profile_image_class
+                                  sizes=sizes
+                                  alt=profile_alt
+                                %}
+                              </div>
+                            {% endif %}
+
+                            <div class="profile-grid-content">
+                              {% include person_content.liquid profile=profile %}
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
+              {% elsif section.empty_text %}
+                <p>{{ section.empty_text }}</p>
+              {% endif %}
+
+          </section>
         {% endif %}
       {% endfor %}
     {% endif %}
+
+    {% if content != blank %}
+      <hr class="group-separator">
+
+      <div class="group-extra">
+        {{ content }}
+      </div>
+    {% endif %}
+
   </article>
 </div>
-
-<div class="group">
-  <h3>Visiting PhD Students</h3>
-  {% comment %}<div class="row row-cols-1 row-cols-md-1">{% endcomment %}
-  <ul class="flush-list">
-    <li><span>
-      <strong> Mr. Yixiao TANG </strong> from Peking University &#x2022; Mar 2026 - May 2026
-    </span></li>
-    <li><span>
-      <strong> Mr. Zexuan YANG </strong> from Peking University &#x2022; Mar 2026 - May 2026
-    </span></li>
-  </ul>
-  {% comment %}</div>{% endcomment %}
-
-  <h3>Bachelor Students</h3>
-    <ul class="flush-list">
-      <li><span>
-        <strong> Mr. Kezhi WANG </strong> from CUHK-SZ &#x2022; Mar 2026 - Oct 2026 &#x2022; supported by CRIS26029
-      </span></li>
-      <li><span>
-        <strong> Mr. Kalong WU </strong> from CUHK-SZ &#x2022; Mar 2026 - Oct 2026 &#x2022; supported by CRIS26029
-      </span></li>
-    </ul>
-</div>
-
-<div class="group">
-  <h3>Past Mentorship</h3>
-  {% comment %}<div class="row row-cols-1 row-cols-md-1">{% endcomment %}
-  <ul class="flush-list">
-
-    <li><span>
-      <strong>
-        Master thesis:
-      </strong>
-        Enhancing the prediction of aerodynamic forces based on sparse pressure sensor inputs by using machine learning,
-        Thomas Schuster, University of Würzburg (with Prof. Christian Klingenberg)
-        &#x2022; Fall 2024 - Fall 2025
-    </span></li>
-
-    <li><span>
-      <strong>
-        Master thesis:
-      </strong>
-        Reduced order modeling for time dependent parametrized problems coupled with uncertainty quantification,
-        Andrea Lörke, University of Würzburg (with Prof. Christian Klingenberg)
-        &#x2022; Fall 2023 - Fall 2024
-    </span></li>
-
-    <li><span>
-      <strong>
-        Master thesis:
-      </strong>
-      GPU-accelerated numerical simulations of hyperbolic conservation laws
-      using entropy stable schemes and adaptive moving mesh method,
-      Bartul Kovacic, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2023
-    </span></li>
-
-    <li><span>
-      <strong>
-        Master thesis:
-      </strong>
-      Investigation of the aerosol evolution and delivery into the upper airway
-      under transient conditions,
-      Filippo Zacchei, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
-    </span></li>
-
-    <li><span>
-      <strong>
-        Master thesis:
-      </strong>
-      High-order entropy stable discontinuous Galerkin schemes using artificial
-      viscosity,
-      Louis Vincent Marie Jaugey, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
-    </span></li>
-
-    <li><span>
-      <strong>
-        Semester project:
-      </strong>
-      Scalable implementation of high-order entropy stable finite difference
-      schemes,
-      Bartul Kovacic, EPFL (with Prof. Jan S. Hesthaven) &#x2022; Fall 2022
-    </span></li>
-  </ul>
-  {% comment %}</div>{% endcomment %}
-</div>
-
