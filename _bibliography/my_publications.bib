@@ -419,15 +419,15 @@ The present schemes are constructed on Cartesian mesh, and will be extended to m
 
 @Misc{Duan_2025_fourth,
   author    = {Duan, Junming},
-  title     = {A fourth-order active flux method for parabolic problems with application to porous medium equation},
-  doi       = {10.48550/arxiv.2510.11527},
-  abstract  = {The active flux (AF) method is a compact high-order finite volume method originally proposed for solving hyperbolic conservation laws, in which cell averages and point values at cell interfaces are evolved simultaneously. This paper develops a fourth-order AF method for one- and two-dimensional parabolic problems, employing the explicit strong-stability-preserving Runge-Kutta (SSP-RK) method for time integration. The proposed method is built on a degenerate first-order system with auxiliary variables representing the derivatives of the primal variable, similar to local discontinuous Galerkin (LDG) methods, which avoids introducing pseudo-time or performing iterations within a physical time step in the existing hyperbolic formulations. The evolution of cell averages follows the standard finite volume method, ensuring conservation, while the point values of both the primal and auxiliary variables are updated using fourth-order central finite difference operators. A discrete Fourier analysis confirms the fourth-order accuracy in 1D. With the third-order SSP-RK method, the maximum CFL number for stability is 0.27 in 1D, as obtained by von Neumann analysis, larger than that of LDG methods. The proposed method is further applied to the porous medium equation, and positivity-preserving limitings are incorporated to guarantee the non-negativity of the numerical solutions. Several numerical experiments validate the theoretical results and efficacy of the method.},
-  arxiv     = {2510.11527},
+  title     = {A compact fourth-order doubly conservative active flux method with maximum-principle-preserving limiting for degenerate convection--diffusion equations},
+  doi       = {10.48550/arxiv.2510.11527v2},
+  abstract  = {The active flux (AF) method is a compact high-order finite volume method originally proposed for solving hyperbolic conservation laws, that evolves cell averages together with point values shared by neighboring cells. This paper develops a compact fourth-order AF method for scalar degenerate convection--diffusion equations on Cartesian meshes. Fourth-order accuracy is achieved without introducing additional unknowns relative to the standard third-order AF method. For convection, a downwind point value is incorporated into the biased point-value stencil. For diffusion, the proposed method directly discretizes the diffusion potential using compact fourth-order operators, thereby avoiding auxiliary gradient variables, hyperbolic reformulations, pseudo-time stepping, or inner iterations in the existing high-order AF methods. To deal with degeneracy, the diffusion contribution to the cell-average evolution is written in a doubly conservative form, while the point values are evolved using compact finite-difference operators. To enforce the discrete maximum principle, a monolithic convex limiting is constructed, which simultaneously limits convection fluxes and diffusion potentials by blending them with their low-order maximum-principle-preserving counterparts, thus the conservation for convection and double conservation for diffusion are maintained. The point values are projected onto the admissible interval, and an optional smoothness-indicator-based blending is employed to control oscillations. For the 1D linear problem, Fourier analysis establishes fourth-order spatial accuracy, while von Neumann analysis yields larger stable CFL limits than the fourth-order P3 local discontinuous Galerkin method for the explicit Runge--Kutta methods considered. Numerical experiments demonstrate the fourth-order convergence, preservation of bounds, and accurate resolution of shocks and sharp wave fronts.},
+  arxiv     = {2510.11527v2},
   copyright = {arXiv.org perpetual, non-exclusive license},
   groups    = {Active flux},
-  month     = oct,
+  month     = aug,
   publisher = {arXiv},
-  year      = {2025},
+  year      = {2026},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
