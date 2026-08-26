@@ -83,19 +83,19 @@
   type: time_table
   contents:
     - year: 2027 - 2030
-      title: NSFC General Research Program | PI
+      title: NSFC General Research Program 国家自然科学基金面上项目 | PI
       items:
-        - "Acknowledgement:  Fund of the National Natural Science Foundation of China (No.)"
+        - "Acknowledgement: Fund of the National Natural Science Foundation of China (No. 12671481)"
     - year: 2026.03 - 2026.10
       title: Collaborative Double Major Programme (CDMP) Research and Innovation Scheme (CRIS) | PI
       items:
         - "Project code: CRIS26029"
-        - "Acknowledgement: 1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund - Grant 2025A0505000079"
+        - "Acknowledgement: 1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund (No. 2025A0505000079)"
     - year: 2026 - 2028
       title: NSFC Excellent Young Scientists Fund (Overseas) 国家自然科学基金优秀青年科学基金项目(海外) | PI
     - year: 2026 - 2028
-      title: University Development Fund (UDF) | PI
-      items: "Acknowledgement: University Development Fund with the code UDF01004388"
+      title: University Development Fund (UDF) 大学发展基金项目 | PI
+      items: "Acknowledgement: University Development Fund (No. UDF01004388)"
 
 - title: Honors and Awards
   type: time_table
