@@ -45,7 +45,7 @@ profiles:
 
   - align: left
     type: phd
-    image: niming.webp
+    image: xushi.jpg
     content: shixu.md
     image_circular: false
     name: Shi XU (徐石)
@@ -75,10 +75,10 @@ profiles:
         <strong>Mr. Yicheng HU</strong> from CAU &#x2022; Jul 2026 -- Aug 2026
       </span></li>
       <li><span>
-        <strong>Ms. Yan YANG</strong> from NWUP &#x2022; Jul 2026 -- Aug 2026
+        <strong>Ms. Yan YANG</strong> from NWUP &#x2022; Jul 2026 -- Aug 2027
       </span></li>
       <li><span>
-        <strong>Ms. Guo LIU</strong> from HUST &#x2022; Jul 2026 -- Aug 2026
+        <strong>Ms. Guo LIU</strong> from HUST &#x2022; Jul 2026 -- Aug 2027
       </span></li>
       <li><span>
         <strong>Mr. Kezhi WANG</strong> from CUHK-SZ &#x2022; Mar 2026 -- Oct 2026 &#x2022; supported by CRIS26029
