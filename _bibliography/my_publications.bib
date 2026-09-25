@@ -419,6 +419,7 @@ The present schemes are constructed on Cartesian mesh, and will be extended to m
 
 @Misc{Duan_2025_fourth,
   author    = {Duan, Junming},
+  date      = {2026-08-11},
   title     = {A compact fourth-order doubly conservative active flux method with maximum-principle-preserving limiting for degenerate convection--diffusion equations},
   doi       = {10.48550/arxiv.2510.11527v2},
   abstract  = {The active flux (AF) method is a compact high-order finite volume method originally proposed for solving hyperbolic conservation laws, that evolves cell averages together with point values shared by neighboring cells. This paper develops a compact fourth-order AF method for scalar degenerate convection--diffusion equations on Cartesian meshes. Fourth-order accuracy is achieved without introducing additional unknowns relative to the standard third-order AF method. For convection, a downwind point value is incorporated into the biased point-value stencil. For diffusion, the proposed method directly discretizes the diffusion potential using compact fourth-order operators, thereby avoiding auxiliary gradient variables, hyperbolic reformulations, pseudo-time stepping, or inner iterations in the existing high-order AF methods. To deal with degeneracy, the diffusion contribution to the cell-average evolution is written in a doubly conservative form, while the point values are evolved using compact finite-difference operators. To enforce the discrete maximum principle, a monolithic convex limiting is constructed, which simultaneously limits convection fluxes and diffusion potentials by blending them with their low-order maximum-principle-preserving counterparts, thus the conservation for convection and double conservation for diffusion are maintained. The point values are projected onto the admissible interval, and an optional smoothness-indicator-based blending is employed to control oscillations. For the 1D linear problem, Fourier analysis establishes fourth-order spatial accuracy, while von Neumann analysis yields larger stable CFL limits than the fourth-order P3 local discontinuous Galerkin method for the explicit Runge--Kutta methods considered. Numerical experiments demonstrate the fourth-order convergence, preservation of bounds, and accurate resolution of shocks and sharp wave fronts.},
@@ -428,6 +429,19 @@ The present schemes are constructed on Cartesian mesh, and will be extended to m
   month     = aug,
   publisher = {arXiv},
   year      = {2026},
+}
+
+@Misc{Duan_2026_compact,
+  author        = {Junming Duan* and Wasilij Barsukow and Christian Klingenberg},
+  title         = {A compact high-order and positivity-preserving active flux method for compressible {Navier--Stokes} equations on {Cartesian} meshes},
+  doi           = {10.48550/arXiv.2609.29081},
+  abstract      = {This paper develops a compact fourth-order positivity-preserving active flux (AF) method for the one- and two-dimensional compressible Navier--Stokes equations on Cartesian meshes. The method retains the cell averages and shared point values of the standard third-order AF method as its degrees of freedom. To avoid the order reduction that can arise when diffusion is discretized using operators from the standard third-order AF method, while maintaining compactness, the divergence of the viscous flux is discretized directly using compact fourth-order operators. For the inviscid part, incorporating a downwind point value into the biased stencil yields fourth-order accuracy. A monolithic flux limiting blends high-order total numerical fluxes with low-order positivity-preserving counterparts, treating the inviscid and viscous fluxes jointly while maintaining local conservation. Together with a scaling limiter for point values, this procedure preserves density and pressure positivity for both cell averages and point values. Numerical experiments demonstrate fourth-order convergence, positivity preservation, and accurate resolution of shocks and viscous flow structures. For the two-dimensional viscous shock tube, a comparison with a discontinuous Galerkin method shows improved computational efficiency in resolving complex interaction of shock waves and boundary layers.},
+  archiveprefix = {arxiv},
+  arxiv         = {2609.29081},
+  groups        = {Active flux},
+  month         = {9},
+  primaryclass  = {math.NA},
+  year          = {2026},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
